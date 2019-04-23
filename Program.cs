@@ -14,21 +14,21 @@ namespace emojimadness
             var f3 = new string[] { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
             foreach (string s in f1)
             {
-                Console.SetCursorPosition(0, Console.CursorTop);
+                //Console.SetCursorPosition(0, Console.CursorTop);
                 Console.Write(s + "    ");
                 Thread.Sleep(100);
             }
             Console.WriteLine();
             foreach (string s in f2)
             {
-                Console.SetCursorPosition(0, Console.CursorTop);
+                //Console.SetCursorPosition(0, Console.CursorTop);
                 Console.Write(s + "    ");
                 Thread.Sleep(100);
             }
             Console.WriteLine();
             foreach (string s in f3)
             {
-                Console.SetCursorPosition(0, Console.CursorTop);
+                //Console.SetCursorPosition(0, Console.CursorTop);
                 Console.Write(s + "    ");
                 Thread.Sleep(100);
             }
